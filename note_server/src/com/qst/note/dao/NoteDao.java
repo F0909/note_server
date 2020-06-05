@@ -106,7 +106,7 @@ public class NoteDao {
 				NoteBean note = new NoteBean();
 				note.setId(rs.getInt("id"));
 				note.setTitle(rs.getString("title"));
-				note.setContent("content");
+				note.setContent(rs.getString("content"));
 				note.setCreateTime("create_time");
 				note.setUpdateTime("update_time");
 				note.setNoteTime("note_time");
