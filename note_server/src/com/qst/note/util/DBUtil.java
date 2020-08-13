@@ -14,15 +14,9 @@ public class DBUtil {
 
 	// main方法测试一下是否能连接到数据库
 	// public static void main(String[] args) {
-	// Connection c=getConnection();
-	// try {
-	// Statement st=(Statement) c.createStatement();
-	// st.execute("insert into user(name,pass) values('zhangsan','123')");
-	// close(c,st,null);
-	// } catch (SQLException e) {
-	// // TODO Auto-generated catch block
-	// e.printStackTrace();
-	// }
+	// DBUtil dbUtil = new DBUtil();
+	// dbUtil.getConnection();
+	// System.out.println("连接成功");
 	// }
 
 	// 获取数据库连接对象
