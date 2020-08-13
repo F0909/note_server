@@ -36,7 +36,7 @@ public class UserDao {
 		try {
 			pst = (PreparedStatement) c.prepareStatement("select pass from user where tel=?");
 			pst.setString(1, tel);
-			ResultSet rs = pst.executeQuery();
+			rs = pst.executeQuery();
 			if (rs.first()) {
 				String passInDb = rs.getString("pass");
 				if (passInDb.equals(pass)) {

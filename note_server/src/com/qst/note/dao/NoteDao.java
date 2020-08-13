@@ -107,8 +107,8 @@ public class NoteDao {
 				note.setId(rs.getInt("id"));
 				note.setTitle(rs.getString("title"));
 				note.setContent(rs.getString("content"));
-				note.setCreateTime("create_time");
-				note.setUpdateTime("update_time");
+				note.setCreateTime(rs.getString("create_time"));
+				note.setUpdateTime(rs.getString("update_time"));
 				note.setNoteTime("note_time");
 				note.setUserId(rs.getInt("user_id"));
 				all.add(note);
