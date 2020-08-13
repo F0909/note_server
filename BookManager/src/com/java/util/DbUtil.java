@@ -12,6 +12,13 @@ public class DbUtil {
 	private static String dbUsername = "root";// 用户名
 	private static String dbPassword = "orcl";// 密码
 
+	// 测试数据库是否连接
+	// public static void main(String[] args) {
+	// DbUtil dbUtil=new DbUtil();
+	// DbUtil.getConnection();
+	// System.out.println("连接成功！");
+	// }
+
 	// 获取数据库连接对象
 	public static Connection getConnection() {
 		Connection c = null;
